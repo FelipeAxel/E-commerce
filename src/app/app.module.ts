@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { RoutingModule } from './routing.module';
+import { NewNaoEncotradaComponent } from './new-nao-encotrada/new-nao-encotrada.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    NewNaoEncotradaComponent
   ],
   imports: [
     BrowserModule,
