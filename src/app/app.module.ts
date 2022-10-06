@@ -8,7 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { RoutingModule } from './routing.module';
 import { NewNaoEncotradaComponent } from './new-nao-encotrada/new-nao-encotrada.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatSnackBarModule} from "@angular/material/snack-bar"
+import {MatSnackBarModule} from "@angular/material/snack-bar";
 
 @NgModule({
   declarations: [
@@ -22,7 +22,7 @@ import {MatSnackBarModule} from "@angular/material/snack-bar"
     AppRoutingModule,
     RoutingModule,
     BrowserAnimationsModule,
-    MatSnackBarModule
+    MatSnackBarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
